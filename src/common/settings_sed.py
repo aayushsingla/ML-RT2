@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------
 #  Settings for the input SEDs
 # -----------------------------------------------------------------
-SED_ENERGY_MIN = 10.4   # eV
+SED_ENERGY_MIN = 13.6   # eV
 SED_ENERGY_MAX = 1e4    # eV
 SED_ENERGY_DELTA = 0.1  # eV (resolution)  not used when the sampling of the photon energies is done in log space
 
@@ -40,7 +40,3 @@ p8_names_latex.append('f_{\mathrm{esc,\\ast}}')
 p8_names_latex.append('\\alpha_{\mathrm{IMF,\\ast}}')
 #p8_names_latex.append('\log_{10}{\mathrm{M}_{\mathrm{min}, \\ast}}')
 p8_names_latex.append('{\mathrm{M}_{\mathrm{min}, \\ast}}')
-
-
-
-
